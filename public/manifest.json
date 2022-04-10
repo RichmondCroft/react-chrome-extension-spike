@@ -12,8 +12,6 @@
     "48": "logo192.png",
     "128": "logo512.png"
   },
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "permissions": ["storage", "activeTab", "scripting"],
+  "options_page": "index.html"
 }
