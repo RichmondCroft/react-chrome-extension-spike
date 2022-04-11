@@ -1,13 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 
-import { changeBg } from './chrome-utils/index'
+import { textAndBackgroundChange, displayOverlay } from './chrome-utils'
 
 function App() {
   function handleOnTextChange() {
-    changeBg();
+    textAndBackgroundChange();
+  }
+
+  function handleOnCreateOverlay() {
+    displayOverlay();
   }
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <header className="App-header" style={{ padding: 40 }}>
         <div>Actions</div>
         <button onClick={handleOnTextChange}>change font and color</button>
+        <button onClick={handleOnCreateOverlay}>Create overlay</button>
       </header>
     </div>
   );

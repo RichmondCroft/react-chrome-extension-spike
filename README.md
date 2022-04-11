@@ -24,3 +24,7 @@ and the extension should now be installed.
 ## Notes
 For more details pls refer to this [link](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
 
+## Drag drop examples
+https://codepen.io/wheelercode/details/LYzaxgQ
+https://codepen.io/kylevdr/pen/babweQ?editors=0010
+
