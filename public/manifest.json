@@ -13,5 +13,12 @@
     "128": "logo512.png"
   },
   "permissions": ["storage", "activeTab", "scripting"],
-  "options_page": "index.html"
+  "options_page": "index.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["css/content-styles.css"],
+      "js": ["scripts/content-script.js"]
+    }
+  ]
 }
